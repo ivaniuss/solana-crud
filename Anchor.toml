@@ -1,0 +1,17 @@
+[features]
+seeds = false
+[programs.localnet]
+solana4_project = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "/home/ivaniuss/.config/solana/id.json"
+
+[scripts]
+test = "yarn run mocha -t 1000000 tests/"
+
+[test]
+startup_wait = 100000
